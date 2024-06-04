@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_gravity="center_vertical"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo item"
+        android:textSize="20sp"
+        android:textColor="@color/purple_200"
+        >
+    </TextView>
+
+
+    <ImageButton
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_delete_24"
+        android:layout_marginHorizontal="10dp"
+        >
+
+    </ImageButton>
+</LinearLayout>
